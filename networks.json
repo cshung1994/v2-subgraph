@@ -2,7 +2,7 @@
   "mainnet" : {
     "Factory": {
       "address": "0x814ab84a151662c6d1f8142abce02ca25c05905e",
-      "startBlock": 18000000
+      "startBlock": 18232302
     }
   }
 }
