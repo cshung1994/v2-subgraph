@@ -16,7 +16,7 @@
     "docker:remove-local": "graph remove swap/swap --node http://ens-app_graph-node_1:8020",
     "build": "graph build",
     "deploy": "graph deploy --network mainnet --product hosted-service swap/swap",
-    "watch-local": "graph deploy vns --watch --debug --node http://127.0.0.1:8020/ --ipfs http://localhost:5001"
+    "watch-local": "graph deploy swap/swap --watch --debug --node http://127.0.0.1:8020/ --ipfs http://localhost:5001"
   },
   "devDependencies": {
     "@ensdomains/content-hash": "^2.5.3",
